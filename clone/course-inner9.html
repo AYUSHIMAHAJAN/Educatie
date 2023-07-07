@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>More About the Course</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="courses.css">
+    <!-- <link href="https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap" rel="stylesheet"> -->
+    <script src="https://kit.fontawesome.com/409b2d6fa4.js" crossorigin="anonymous"></script>
+  
+   
+</head>
+<body>
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js" integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
+    <nav class="navbar background">
+        <div class="logo"><img src="icon.png" alt="Image Not Found"></div>
+        <ul class="nav-list">
+          
+            <i  id="menu-close" class="fas fa-times"></i>
+            <li><a href="body.html" >Home</a></li>
+            <li><a href="about.html" target="_blank">About</a></li>
+            <li><a href="blog.html" target="_blank">Blog</a></li>
+            <li><a href="courses.html"  class="active">Courses</a></li>
+            <li><a href="form2.html" target="_blank">Login</a></li>
+           
+
+
+            <!-- <div class="background"> <img src="bg.jpg" alt="Image Not Found"></div> -->
+
+        </ul>
+        <img id="menu-btn" src="images/download.png"  alt="not found">
+        <!-- <div class="right-nav">
+            <input type="text" name="search" id="search" placeholder="Search here">
+            <button class=" btn btn-sm">Search</button>
+
+        </div> -->
+
+    </nav>
+    <script>
+        $("#menu-btn").click(function(){
+            $('.navbar ul').addClass('active');
+        });
+        $("#menu-close").click(function(){
+            $('.navbar ul').removeClass('active');
+        });
+    </script>
+    <section id="home">
+        <h2>SKILL UP YOUR SKILLS WITH OUR COURSES</h2>
+</section>
+<section id="course-inner">
+    <div class="overview">
+        <img class="course-img" src="java.jpeg" alt="">
+        <div class="course-head">
+            <div class="c-name">
+                <h2>Java Programming</h2>
+                <div class="star">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                   
+
+                </div>
+                <p>Java is a widely-used, high-level programming language that was originally developed by Sun Microsystems (now owned by Oracle Corporation) in the mid-1990s. Known for its simplicity, versatility, and platform independence, Java has become one of the most popular programming languages in the world.</p>
+            </div>
+            <span>240/-</span>
+        </div>
+        <h3>Instructor</h3>
+        <div class="tutor">
+            <img src="b1a.jpeg" alt="">
+            <div class="tutor-det">
+                <h5>John Deo</h5>
+                <p>Web developer at Google</p>
+            </div>
+        </div>
+        <hr>
+        <h3>Course Overview</h3>
+        <p>Course Outline: <br> <br>
+
+            Module 1: Introduction to Java <br>
+            
+            Overview of Java and its features <br>
+            Installing Java Development Kit (JDK) and setting up the development environment <br>
+            Running Java programs <br>
+            Basic syntax and writing your first Java program <br>
+            Variables, data types, and operators <br>
+            Input/output operations with the console <br> <br>
+            Module 2: Control Flow and Functions <br>
+            
+            Conditional statements (if, else, switch) <br>
+            Looping constructs (for and while loops) <br>
+            Control flow statements (break, continue, and return) <br>
+            Introduction to methods and their benefits <br>
+            Writing and calling methods <br>
+            Method parameters and return values <br> <br>
+            Module 3: Object-Oriented Programming in Java <br>
+            
+            Introduction to object-oriented programming (OOP) concepts <br>
+            Classes and objects in Java <br>
+            Class constructors and access modifiers <br>
+            Encapsulation, inheritance, and polymorphism <br>
+            Method overloading and overriding <br> <br>
+            
+            Module 4: Data Structures and Collections <br>
+            
+            Arrays and multidimensional arrays <br>
+            Introduction to Java collections framework (ArrayList, LinkedList, HashMap, etc.) <br>
+            Working with lists, sets, and maps <br>
+            Iterating and manipulating collections <br>
+            Sorting and searching collections <br> <br>
+            Module 5: Exception Handling and File Handling <br>
+            
+            Understanding exceptions and exception handling in Java <br>
+            Handling and throwing exceptions <br>
+            Working with try-catch-finally blocks <br>
+            File handling in Java (reading from and writing to files) <br>
+            File input/output streams <br>
+            Handling text and binary files <br> <br>
+            Module 6: Graphical User Interface (GUI) Development <br>
+            
+            Introduction to JavaFX and Swing <br>
+            Designing graphical user interfaces using scene builders <br>
+            Handling events and user interactions <br>
+            Layout management and UI components <br>
+            Creating simple desktop applications <br> <br>
+            Module 7: Advanced Topics <br>
+            
+            Multithreading and concurrent programming <br>
+            Working with databases using Java Database Connectivity (JDBC) <br>
+            Networking and client-server communication <br>
+            Introduction to Java Servlets and JavaServer Pages (JSP) <br>
+            Introduction to popular Java frameworks (Spring, Hibernate) <br> <br>
+            Module 8: Project Development <br>
+            
+            Building a small-scale Java application <br>
+            Applying concepts learned throughout the course <br>
+            Planning, designing, and implementing a Java project <br>
+            Testing, debugging, and optimizing code <br>
+        </p>
+        <hr>
+        <h3>What will you learn</h3>
+        <div class="learn">
+            <p><i class="far fa-check-circle"></i>Java Programming-beginner to advanced</p>
+            <p><i class="far fa-check-circle"></i>Acquire essential java basics for transitioning to the Spring Framework, Java EE, Android development and more.</p>
+            <p><i class="far fa-check-circle"></i>Understand difference between Java 8, 9, 11, 13, 14, 15, 16, 17</p>
+            <p><i class="far fa-check-circle"></i>
+                Java Collections Framework and Implementations of the List interface</p>
+            <p><i class="far fa-check-circle"></i>SQL Database, Architecture and
+                JDBC</p>
+            <p><i class="far fa-check-circle"></i>Spring Boot</p>
+        
+        </div>
+       
+    </div>
+
+    <div class="enroll">
+        <h3>This Course includes:</h3>
+        <p><i class="fa-solid fa-video"></i>52 hours Videos</p>
+        <p><i class="fa-solid fa-newspaper"></i>75 articles</p>
+        <p><i class="fa-solid fa-cloud-download"></i>Downloadable resources</p>
+        <p><i class="fa-solid fa-infinity"></i>Full Lifetime Access</p>
+        <p><i class="fa-solid fa-mobile-alt"></i>Access on mobile</p>
+        <p><i class="fa-solid fa-paperclip"></i>Assignment</p>
+        <p><i class="fa-solid fa-certificate"></i>Certificate of completiton</p>
+        <div class="enroll-btn">
+            <a href="payment.html" class="blue">Enroll Course</a>
+        </div>
+    </div>
+</section>
+
+   
+<footer class="ok">
+    <div class="footer-col">
+        <h6>Top Product </h6>
+        <li>Manage Reputation</li>
+        <li>PowerTools</li>
+       
+    </div>
+    <div class="footer-col">
+        <h6>Quick Links </h6>
+        <li>Jobs</li>
+        <li>Brand Assets</li>
+       
+    </div>
+    <div class="footer-col">
+        <h6>Features</h6>
+        <li>Manage Repu</li>
+        <li>Power Tools</li>
+        
+    </div>
+    <div class="footer-col">
+        <h6>Resources</h6>
+        <li>Guides</li>
+        <li>Research</li>
+     
+    </div>
+    <div class="footer-col">
+        <h6>Newsletter</h6>
+        <p >You can trust us.we only send promo offers,</p>
+        <br>
+        <div class="subscribe">
+            <input type="email" placeholder="your email address">
+        </div>
+    </div>
+
+
+</footer>
+<div class="copyright">
+    <p id="me"> Copyright &copy;2027 All rights Reserved </p>
+    <div class="pro-links">
+        <a href="">
+            <i class="fab fa-facebook"></i>
+        </a>
+        <a href=""><i class="fab fa-instagram"></i></a>
+       <a href="https://www.linkedin.com/in/ayushi-mahajan-356a0025a"> <i class="fab fa-linkedin-in"></i></a>            
+    </div>
+</div>
+</body>
+</html>

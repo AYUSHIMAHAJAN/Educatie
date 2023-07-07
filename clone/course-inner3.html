@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>More About the Course</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="courses.css">
+    <!-- <link href="https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap" rel="stylesheet"> -->
+    <script src="https://kit.fontawesome.com/409b2d6fa4.js" crossorigin="anonymous"></script>
+
+
+</head>
+
+<body>
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js" integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
+    <nav class="navbar background">
+        <div class="logo"><img src="icon.png" alt="Image Not Found"></div>
+        <ul class="nav-list">
+          
+            <i  id="menu-close" class="fas fa-times"></i>
+            <li><a href="body.html" >Home</a></li>
+            <li><a href="about.html" target="_blank">About</a></li>
+            <li><a href="blog.html" target="_blank">Blog</a></li>
+            <li><a href="courses.html"  class="active">Courses</a></li>
+            <li><a href="form2.html" target="_blank">Login</a></li>
+           
+
+
+            <!-- <div class="background"> <img src="bg.jpg" alt="Image Not Found"></div> -->
+
+        </ul>
+        <img id="menu-btn" src="images/download.png"  alt="not found">
+        <!-- <div class="right-nav">
+            <input type="text" name="search" id="search" placeholder="Search here">
+            <button class=" btn btn-sm">Search</button>
+
+        </div> -->
+
+    </nav>
+    <script>
+        $("#menu-btn").click(function(){
+            $('.navbar ul').addClass('active');
+        });
+        $("#menu-close").click(function(){
+            $('.navbar ul').removeClass('active');
+        });
+    </script>
+    <section id="home">
+        <h2>SKILL UP YOUR SKILLS WITH OUR COURSES</h2>
+    </section>
+    <section id="course-inner">
+        <div class="overview">
+            <img class="course-img" src="images/b3 - Copy.jpg" alt="">
+            <div class="course-head">
+                <div class="c-name">
+                    <h2>App-development</h2>
+                    <div class="star">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+
+
+                    </div>
+                    <p>In today's digitally-driven world, mobile applications have become an integral part of our lives,
+                        revolutionizing the way we communicate, work, and entertain ourselves. App development has
+                        emerged as a rapidly growing industry, offering endless opportunities for businesses,
+                        individuals, and society as a whole.</p>
+                </div>
+                <span>299/-</span>
+            </div>
+            <h3>Instructor</h3>
+            <div class="tutor">
+                <img src="b1a.jpeg" alt="">
+                <div class="tutor-det">
+                    <h5>Kim</h5>
+                    <p>Web developer at Google</p>
+                </div>
+            </div>
+            <hr>
+            <h3>Course Overview</h3>
+            <p>
+                Module 1: Introduction to App Development <br> <br>
+
+                Mobile app ecosystem <br>
+                Platform-specific considerations (iOS, Android, etc.) <br>
+                User experience (UX) design principles <br>
+                App development life cycle <br>
+                Module 2: Programming Languages for App Development <br> <br>
+
+                Overview of programming languages (Java, Swift, React Native, etc.) <br>
+                Syntax, data types, and control structures <br>
+                Object-oriented programming concepts <br> <br>
+                Module 3: Building User Interfaces <br>
+
+                User interface (UI) design principles <br>
+                UI components and layout <br>
+                Navigation and interaction patterns <br> <br>
+
+                Module 4: Data Management and APIs <br>
+
+                Storing and retrieving data <br>
+                Local storage and databases <br>
+                Integrating with web services and APIs <br> <br>
+                Module 5: Development Frameworks and Tools <br>
+
+                Introduction to development frameworks (Android Studio, Xcode, etc.) <br>
+                Libraries and tools for rapid development <br>
+                Cross-platform development frameworks (React Native, Flutter, etc.) <br> <br>
+                Module 6: Testing and Debugging <br>
+
+                App testing methodologies <br>
+                Debugging techniques <br>
+                Quality assurance and performance optimization <br> <br>
+
+                Course Project: <br>
+                Throughout the course, students will work on a comprehensive app development project, where they will
+                apply the concepts and skills learned in each module. This project will involve designing, developing,
+                testing, and deploying a functional mobile application for a specific platform.
+
+
+
+
+            </p>
+            <hr>
+            <h3>What will you learn</h3>
+            <div class="learn">
+                <p><i class="far fa-check-circle"></i>App development-beginner to advanced</p>
+                <p><i class="far fa-check-circle"></i>Learn to build Apps</p>
+                <p><i class="far fa-check-circle"></i>Become a professional app developer, take freelance gigs and work
+                    from anywhere in the world</p>
+                <p><i class="far fa-check-circle"></i>Submit your apps to Google Play and generate revenue with Google
+                    Pay and Google Ads</p>
+                <p><i class="far fa-check-circle"></i>Implement the most common use cases for Kotlin Coroutines and Flow
+                    on Android</p>
+
+
+            </div>
+
+        </div>
+
+        <div class="enroll">
+            <h3>This Course includes:</h3>
+            <p><i class="fa-solid fa-video"></i>52 hours Videos</p>
+            <p><i class="fa-solid fa-newspaper"></i>75 articles</p>
+            <p><i class="fa-solid fa-cloud-download"></i>Downloadable resources</p>
+            <p><i class="fa-solid fa-infinity"></i>Full Lifetime Access</p>
+            <p><i class="fa-solid fa-mobile-alt"></i>Access on mobile</p>
+            <p><i class="fa-solid fa-paperclip"></i>Assignment</p>
+            <p><i class="fa-solid fa-certificate"></i>Certificate of completiton</p>
+            <div class="enroll-btn">
+                <a href="Payment.html" class="blue">Enroll Course</a>
+            </div>
+        </div>
+    </section>
+   
+    <footer class="ok">
+        <div class="footer-col">
+            <h6>Top Product </h6>
+            <li>Manage Reputation</li>
+            <li>PowerTools</li>
+           
+        </div>
+        <div class="footer-col">
+            <h6>Quick Links </h6>
+            <li>Jobs</li>
+            <li>Brand Assets</li>
+           
+        </div>
+        <div class="footer-col">
+            <h6>Features</h6>
+            <li>Manage Repu</li>
+            <li>Power Tools</li>
+            
+        </div>
+        <div class="footer-col">
+            <h6>Resources</h6>
+            <li>Guides</li>
+            <li>Research</li>
+         
+        </div>
+        <div class="footer-col">
+            <h6>Newsletter</h6>
+            <p >You can trust us.we only send promo offers,</p>
+            <br>
+            <div class="subscribe">
+                <input type="email" placeholder="your email address">
+            </div>
+        </div>
+
+
+    </footer>
+    <div class="copyright">
+        <p id="me"> Copyright &copy;2027 All rights Reserved </p>
+        <div class="pro-links">
+            <a href="">
+                <i class="fab fa-facebook"></i>
+            </a>
+            <a href=""><i class="fab fa-instagram"></i></a>
+           <a href="https://www.linkedin.com/in/ayushi-mahajan-356a0025a"> <i class="fab fa-linkedin-in"></i></a>            
+        </div>
+    </div>
+</body>
+
+</html>

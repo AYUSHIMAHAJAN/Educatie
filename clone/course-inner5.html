@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>More About the Course</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="courses.css">
+    <!-- <link href="https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap" rel="stylesheet"> -->
+    <script src="https://kit.fontawesome.com/409b2d6fa4.js" crossorigin="anonymous"></script>
+
+
+</head>
+
+<body>
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js" integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
+    <nav class="navbar background">
+        <div class="logo"><img src="icon.png" alt="Image Not Found"></div>
+        <ul class="nav-list">
+          
+            <i  id="menu-close" class="fas fa-times"></i>
+            <li><a href="body.html" >Home</a></li>
+            <li><a href="about.html" target="_blank">About</a></li>
+            <li><a href="blog.html" target="_blank">Blog</a></li>
+            <li><a href="courses.html"  class="active">Courses</a></li>
+            <li><a href="form2.html" target="_blank">Login</a></li>
+           
+
+
+            <!-- <div class="background"> <img src="bg.jpg" alt="Image Not Found"></div> -->
+
+        </ul>
+        <img id="menu-btn" src="images/download.png"  alt="not found">
+        <!-- <div class="right-nav">
+            <input type="text" name="search" id="search" placeholder="Search here">
+            <button class=" btn btn-sm">Search</button>
+
+        </div> -->
+
+    </nav>
+    <script>
+        $("#menu-btn").click(function(){
+            $('.navbar ul').addClass('active');
+        });
+        $("#menu-close").click(function(){
+            $('.navbar ul').removeClass('active');
+        });
+    </script>
+    <section id="home">
+        <h2>SKILL UP YOUR SKILLS WITH OUR COURSES</h2>
+    </section>
+    <section id="course-inner">
+        <div class="overview">
+            <img class="course-img" src="images/b4.jpeg" alt="">
+            <div class="course-head">
+                <div class="c-name">
+                    <h2>Python Programming</h2>
+                    <div class="star">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+
+
+                    </div>
+                    <p>Python programming has gained immense popularity in recent years, emerging as a versatile and
+                        powerful language for a wide range of applications. Known for its simplicity, readability, and
+                        extensive libraries, Python has become a preferred choice for beginners and seasoned developers
+                        alike. </p>
+                </div>
+                <span>240/-</span>
+            </div>
+            <h3>Instructor</h3>
+            <div class="tutor">
+                <img src="b1a.jpeg" alt="">
+                <div class="tutor-det">
+                    <h5>John Dep</h5>
+                    <p>Web developer at Google</p>
+                </div>
+            </div>
+            <hr>
+            <h3>Course Overview</h3>
+            <p>
+
+                Module 1: Introduction to Python <br> 
+
+                Overview of Python and its features <br>
+                Installing Python and setting up the development environment <br>
+                Running Python programs <br>
+                Basic syntax and writing your first Python program <br>
+                Variables, data types, and operators <br>
+                Working with strings and input/output operations <br> <br>
+                Module 2: Control Flow and Functions <br>
+
+                Conditional statements (if, else, elif) <br>
+                Looping constructs (for and while loops) <br>
+                Control flow statements (break, continue, and pass) <br>
+                Introduction to functions and their benefits <br>
+                Writing and calling functions <br>
+                Function parameters and return values <br> <br>
+                Module 3: Data Structures <br>
+
+                Lists, tuples, and dictionaries <br>
+                Accessing and manipulating elements in data structures <br>
+                Slicing and indexing <br>
+                List comprehensions <br>
+                Built-in functions for data structures <br> <br>
+                Module 4: File Handling <br>
+
+                Reading from and writing to files <br>
+                File modes and file objects <br>
+                Working with text and CSV files <br>
+                Error handling and exception handling <br> <br>
+                Module 5: Object-Oriented Programming <br>
+
+                Introduction to object-oriented programming (OOP) concepts <br>
+                Creating classes and objects <br>
+                Class attributes and methods <br>
+                Inheritance and polymorphism <br>
+                Working with modules and packages <br> <br>
+                Module 6: Advanced Topics <br>
+
+                Working with external libraries and modules (e.g., NumPy, Pandas) <br>
+                Introduction to graphical user interface (GUI) programming with Tkinter <br>
+                Introduction to web scraping using libraries like Beautiful Soup <br>
+                Introduction to data visualization with Matplotlib <br> <br>
+               
+                Course Delivery: <br> 
+
+                The course will be delivered through a combination of lectures, coding exercises, and hands-on projects.
+                Students will have access to online learning materials, including video tutorials and code samples.
+                 <br> <br>
+                Prerequisites: <br>
+
+                No prior programming experience is required.
+                Basic computer literacy and familiarity with any operating system are recommended. <br> <br>
+                Note: This course overview is a general guideline and may vary depending on the institution or
+                instructor offering the Python Programming course.
+
+
+
+
+
+
+
+            </p>
+            <hr>
+            <h3>What will you learn</h3>
+            <div class="learn">
+                <p><i class="far fa-check-circle"></i>Python programming-beginner to advanced</p>
+                <p><i class="far fa-check-circle"></i>You will learn how to leverage the power of Python to solve tasks.
+                </p>
+                <p><i class="far fa-check-circle"></i>You will build games and programs that use Python libraries.</p>
+                <p><i class="far fa-check-circle"></i>Learn to use Object Oriented Programming with classes!</p>
+                <p><i class="far fa-check-circle"></i>Understand how to use both the Jupyter Notebook and create .py
+                    files</p>
+                <p><i class="far fa-check-circle"></i>Get an understanding of how to create GUIs in the Jupyter Notebook
+                    system!</p>
+
+            </div>
+
+        </div>
+
+        <div class="enroll">
+            <h3>This Course includes:</h3>
+            <p><i class="fa-solid fa-video"></i>52 hours Videos</p>
+            <p><i class="fa-solid fa-newspaper"></i>75 articles</p>
+            <p><i class="fa-solid fa-cloud-download"></i>Downloadable resources</p>
+            <p><i class="fa-solid fa-infinity"></i>Full Lifetime Access</p>
+            <p><i class="fa-solid fa-mobile-alt"></i>Access on mobile</p>
+            <p><i class="fa-solid fa-paperclip"></i>Assignment</p>
+            <p><i class="fa-solid fa-certificate"></i>Certificate of completiton</p>
+            <div class="enroll-btn">
+                <a href="payment.html" class="blue">Enroll Course</a>
+            </div>
+        </div>
+    </section>
+
+    <footer class="ok">
+        <div class="footer-col">
+            <h6>Top Product </h6>
+            <li>Manage Reputation</li>
+            <li>PowerTools</li>
+           
+        </div>
+        <div class="footer-col">
+            <h6>Quick Links </h6>
+            <li>Jobs</li>
+            <li>Brand Assets</li>
+           
+        </div>
+        <div class="footer-col">
+            <h6>Features</h6>
+            <li>Manage Repu</li>
+            <li>Power Tools</li>
+            
+        </div>
+        <div class="footer-col">
+            <h6>Resources</h6>
+            <li>Guides</li>
+            <li>Research</li>
+         
+        </div>
+        <div class="footer-col">
+            <h6>Newsletter</h6>
+            <p >You can trust us.we only send promo offers,</p>
+            <br>
+            <div class="subscribe">
+                <input type="email" placeholder="your email address">
+            </div>
+        </div>
+
+
+    </footer>
+    <div class="copyright">
+        <p id="me"> Copyright &copy;2027 All rights Reserved </p>
+        <div class="pro-links">
+            <a href="">
+                <i class="fab fa-facebook"></i>
+            </a>
+            <a href=""><i class="fab fa-instagram"></i></a>
+           <a href="https://www.linkedin.com/in/ayushi-mahajan-356a0025a"> <i class="fab fa-linkedin-in"></i></a>            
+        </div>
+    </div>
+</body>
+
+</html>

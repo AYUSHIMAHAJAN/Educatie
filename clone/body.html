@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EDucatie-A platform for aspiring students</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="body.js"></script>
+    <!-- <link rel="stylesheet" href="responsive.css"> -->
+    <!-- <link href="https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap" rel="stylesheet"> -->
+    <script src="https://kit.fontawesome.com/409b2d6fa4.js" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/409b2d6fa4.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js" integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
+    <!-- <script defer src="https://use.fontawesome.com/releases/v5.15.4/js/all.js" integrity="sha384-rOA1PnstxnOBLzCLMcre8ybwbTmemjzdNlILg8O7z1lUkLXozs4DHonlDtnE7fpc" crossorigin="anonymous"></script> -->
+</head>
+
+<body>
+
+    <nav class="navbar background">
+        <div class="logo"><img src="icon.png" alt="Image Not Found"></div>
+        <ul class="nav-list" >
+            
+            
+            <i  id="menu-close" class="fas fa-times"></i>
+            <li><a href="#home" class="active">Home</a></li>
+            <li><a href="about.html" target="_blank">About</a></li>
+            <li><a href="blog.html" target="_blank">Blog</a></li>
+            <li><a href="courses.html">Courses</a></li>
+            <li><a href="form2.html" target="_blank">Login</a></li>
+
+            
+      
+
+            <!-- <div class="background"> <img src="bg.jpg" alt="Image Not Found"></div> -->
+
+        </ul>
+        <img id="menu-btn" src="images/download.png"  alt="not found">
+        <!-- <div class="right-nav">
+            <input type="text" name="search" id="search" placeholder="Search here">
+            <button class=" btn btn-sm">Search</button>
+
+        </div> -->
+
+
+    </nav>
+
+    <script>
+        $("#menu-btn").click(function(){
+            $('.navbar ul').addClass('active');
+        });
+        $("#menu-close").click(function(){
+            $('.navbar ul').removeClass('active');
+        });
+    </script>
+
+    <section classs="background firstsection">
+
+        <div class="box-main">
+
+            <div class="firsthalf">
+
+                <p class="text-small">Learning starts here </p>
+
+                <p id="t" class="text-big">Be the future that can change the World</p>
+
+
+                <!-- <div class="buttons">
+
+                    <button class="btn" id="but">Start Learning</button>
+
+                    <button class="btn" id="button">Explore Courses</button>
+                </div> -->
+
+            </div>
+
+            <div class="secondhalf" id="cf">
+
+                <!-- <img src="images.jpg" alt="Image Not Found"> -->
+                <img src="images/images.jpg" alt="Can't load the Image">
+            </div>
+
+        </div>
+
+    </section>
+
+    <section class="section">
+        <div class="paras" id="home">
+            <p id="idk" class="sectiontag text-small">Daily live classes</p>
+
+            <p id="ikt" class="sectionsubtag  text-big">Chat with educators, ask questions, answer live polls, and get your
+                doubts cleared - all while the class is going on.</p>
+        </div>
+
+        <div class="thumbnail">
+
+            <img src="lives.jpg" alt="Not Found" class="img">
+
+        </div>
+
+    </section>
+
+
+    <section class=" section secleft">
+
+        <div class="paras">
+            <p class="sectiontag text-small">Learn anytime,anywhere</p>
+
+            <p id="ik" class="sectionsubtag  text-big">One subscription gets you access to all our live and recorded classes
+                </p>
+
+        </div>
+
+
+        <div class="thumbnail">
+            <img src="learn.jpg" alt="Not Found" class="imgFluid">
+
+        </div>
+
+    </section>
+    <section id="features">
+        <h1>Awesome Features</h1>
+        <p>Explore more about our website</p>
+        <div class="fea-base">
+            <div class="fea-box">
+                <i class="fa-solid fa-graduation-cap"></i>
+                <h3>Scholarship Facility</h3>
+                <p>Participate in our Scholarship test to get more discounts on paid courses</p>
+            </div>
+
+            <div class="fea-box">
+                <i class="fa-solid fa-award"></i>
+                <h3>Global Certification</h3>
+                <p>After completion of the course certificates are provided which can help you to enhance you CV</p>
+            </div>
+
+            <div class="fea-box">
+                <i class="fa-solid fa-tag"></i>
+                <h3>Online Course</h3>
+                <p>Go to Our Courses section and explore paid as well as free courses.Paid courses best fits your pocket
+                    starting from 99 </p>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+
+        <h3 class="text-center">Contact Us</h3>
+
+        <div class="form" id="contact-form">
+
+       
+            <form  action="https://formspree.io/f/mlekkqrg"  name="myform" onsubmit="return validateForm()"  method="POST"  >
+
+            <div id="name">
+            <input class="form-input" type="text" name="name"  placeholder="Enter your name" required>
+             <span class="form-error"></span>
+
+           </div>
+           <div id="phone">
+            <input class="form-input" type="phone" name="phone"  placeholder="Enter your phone" required>
+            <span class="form-error"></span>
+
+            </div>
+
+            <div id="email">
+            <input class="form-input" type="email" name="email"  placeholder="Enter your email" required>
+            <span class="form-error"></span>
+
+           </div>
+          
+            <div id="message">
+            <textarea class="form-input" name="message" cols="67" rows="15"
+                placeholder="Leave a Comment"></textarea>
+                <span class="form-error"></span>
+            </div>
+
+            
+
+                <input class="submit dark-btn" type="submit" value="Submit">
+             
+
+
+        </form>
+
+        </div>
+
+    </section>
+
+    <!-- <scipt src="https://smtpjs.com/v3/smtp.js"></scipt>
+    <script>
+        function sendemail() {
+            Email.send({
+                Host: "smtp.elasticemail.com",
+                Username: "educatie598@gmail.com",
+                Password:"8F404AC0D483386272E823F118A8BEFB3BF8",
+                To: 'educatie598@gmail.com',
+                From: document.getElementById("email").value,
+                Subject: "A user tried to connect with you",
+                Body:document.getElementById("text").value
+            }).then(
+                message => alert(message)
+            );
+
+        }
+    </script> -->
+
+    <div>
+        <p class="last">For more query <br> <br> Email Us-educatie598@gmail.com</p>
+
+
+    </div>
+
+    <footer class="ok">
+        <div class="footer-col">
+            <h6>Top Product </h6>
+            <li>Manage Reputation</li>
+            <li>PowerTools</li>
+           
+        </div>
+        <div class="footer-col">
+            <h6>Quick Links </h6>
+            <li>Jobs</li>
+            <li>Brand Assets</li>
+           
+        </div>
+        <div class="footer-col">
+            <h6>Features</h6>
+            <li>Manage Repu</li>
+            <li>Power Tools</li>
+            
+        </div>
+        <div class="footer-col">
+            <h6>Resources</h6>
+            <li>Guides</li>
+            <li>Research</li>
+         
+        </div>
+        <div class="footer-col">
+            <h6>Newsletter</h6>
+            <p >You can trust us.we only send promo offers,</p>
+            <br>
+            <div class="subscribe">
+                <input type="email" placeholder="your email address">
+            </div>
+        </div>
+
+
+    </footer>
+    <div class="copyright">
+        <p id="me"> Copyright &copy;2027 All rights Reserved </p>
+        <div class="pro-links">
+            <a href="">
+                <i class="fab fa-facebook"></i>
+            </a>
+            <a href=""><i class="fab fa-instagram"></i></a>
+           <a href="https://www.linkedin.com/in/ayushi-mahajan-356a0025a"> <i class="fab fa-linkedin-in"></i></a>            
+        </div>
+    </div>
+</body>
+
+</html>

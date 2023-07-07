@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog</title>
+    <link rel="stylesheet" href="blog.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/409b2d6fa4.js" crossorigin="anonymous"></script>
+   
+</head>
+<body>
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js" integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
+    <nav class="navbar background">
+        <div class="logo"><img src="icon.png" alt="Image Not Found"></div>
+        <ul class="nav-list">
+           
+ 
+            <i  id="menu-close" class="fas fa-times"></i>
+            <li><a href="body.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="blog.html" class="active">Blog</a></li>
+            <li><a href="courses.html">Courses</a></li>
+            <li><a href="form2.html" target="_blank">Login</a></li>
+           
+
+
+            <!-- <div class="background"> <img src="bg.jpg" alt="Image Not Found"></div> -->
+         
+        </ul>
+        <img id="menu-btn" src="images/download.png"  alt="not found">
+
+    </nav>
+
+    <script>
+        $("#menu-btn").click(function(){
+            $('.navbar ul').addClass('active');
+        });
+        $("#menu-close").click(function(){
+            $('.navbar ul').removeClass('active');
+        });
+    </script>
+
+    <section id="home">
+              <h2>BLOG</h2>
+    </section>
+
+    <section id="blog-container">
+        <div class="blogs"> 
+            <div class="post">
+                <img src="images/b2.jpeg" alt="">
+                <h3>Learn Web Development in the Easiest Way</h3>
+                <p>Developing Web contents involves shaping and making many choices involving technical, aesthetic, and usability concerns. With the expanding technical options for communication on the World Wide Web, it is tempted to focus only on issues such as hypertext markup language (HTML) syntax, page layout, or the latest and flashiest technologies. 
+                </p>
+                <a href="blog2.html" target="_blank">Read More</a>
+            </div>
+
+            <div class="post">
+                <img src="images/b1.jpeg" alt="">
+                <h3>Learn UI/UX in the Easiest Way</h3>
+                <p>In the modern digital landscape, where user interfaces (UI) and user experiences (UX) heavily influence the success of digital products, the field of UI/UX design has emerged as a critical component of software development. UI/UX design focuses on creating visually appealing, intuitive, and user-centric interfaces that not only captivate users but also enhance their overall experience
+                </p>
+                <a href="blog3.html">Read More</a>
+            </div>
+
+            <div class="post">
+                <img src="images/b3 - Copy.jpg" alt="">
+                <h3>AppDevelopment for beginners</h3>
+                <p>In today's digitally-driven world, mobile applications have become an integral part of our lives, revolutionizing the way we communicate, work, and entertain ourselves. App development has emerged as a rapidly growing industry, offering endless opportunities for businesses, individuals, and society as a whole.
+                </p>
+                <a href="blog4.html">Read More</a>
+            </div>
+
+            <div class="post">
+                <img src="images/b4.jpeg" alt="">
+                <h3>Python Programming</h3>
+                <p>Python programming has gained immense popularity in recent years, emerging as a versatile and powerful language for a wide range of applications. Known for its simplicity, readability, and extensive libraries, Python has become a preferred choice for beginners and seasoned developers alike. 
+                </p>
+                <a href="blog5.html">Read More</a>
+            </div>
+
+            <div class="post">
+                <img src="images/b5.jpeg" alt="">
+                <h3>Data Structures and Algorithm</h3>
+                <p>In the realm of computer science, data structures and algorithms form the bedrock upon which all software development and computational problem-solving rest. Data structures provide a systematic organization for data storage, while algorithms define the step-by-step procedures for manipulating and analyzing that data. Understanding and implementing efficient data structures and algorithms are essential skills for computer scientists, software engineers, and programmers
+                </p>
+                <a href="blog6.html">Read More</a>
+            </div>
+
+           
+            </div>
+        </div>
+        <div class="cate">
+            <h2>Categories</h2>
+            <hr>
+            <a href="https://www.geeksforgeeks.org/web-development/" target="_blank">Web Development</a>
+            <hr>
+            <a href="https://www.geeksforgeeks.org/data-structures/" target="_blank">Data Structures and Algorithm</a>
+            <hr>
+            <a href="https://www.geeksforgeeks.org/android-tutorial/" target="_blank">App Development</a>
+            <hr>
+            
+          
+            <a href="https://www.geeksforgeeks.org/python-programming-language/" target="_blank">Python Programming</a>
+            <hr>
+            <a href="https://www.geeksforgeeks.org/user-experience-or-ux-design/ " target="_blank">UI/UX design</a>
+            <hr>
+        </div>
+    </section>
+    
+    
+    
+    <footer class="ok">
+        <div class="footer-col">
+            <h6>Top Product </h6>
+            <li>Manage Reputation</li>
+            <li>PowerTools</li>
+           
+        </div>
+        <div class="footer-col">
+            <h6>Quick Links </h6>
+            <li>Jobs</li>
+            <li>Brand Assets</li>
+           
+        </div>
+        <div class="footer-col">
+            <h6>Features</h6>
+            <li>Manage Repu</li>
+            <li>Power Tools</li>
+            
+        </div>
+        <div class="footer-col">
+            <h6>Resources</h6>
+            <li>Guides</li>
+            <li>Research</li>
+         
+        </div>
+        <div class="footer-col">
+            <h6>Newsletter</h6>
+            <p >You can trust us.we only send promo offers,</p>
+            <br>
+            <div class="subscribe">
+                <input type="email" placeholder="your email address">
+            </div>
+        </div>
+
+
+    </footer>
+    <div class="copyright">
+        <p id="me"> Copyright &copy;2027 All rights Reserved </p>
+        <div class="pro-links">
+            <a href="">
+                <i class="fab fa-facebook"></i>
+            </a>
+            <a href=""><i class="fab fa-instagram"></i></a>
+           <a href="https://www.linkedin.com/in/ayushi-mahajan-356a0025a"> <i class="fab fa-linkedin-in"></i></a>            
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>More About the Course</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="courses.css">
+    <!-- <link href="https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap" rel="stylesheet"> -->
+    <script src="https://kit.fontawesome.com/409b2d6fa4.js" crossorigin="anonymous"></script>
+
+
+</head>
+
+<body>
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js" integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
+    <nav class="navbar background">
+        <div class="logo"><img src="icon.png" alt="Image Not Found"></div>
+        <ul class="nav-list">
+          
+            <i  id="menu-close" class="fas fa-times"></i>
+            <li><a href="body.html" >Home</a></li>
+            <li><a href="about.html" target="_blank">About</a></li>
+            <li><a href="blog.html" target="_blank">Blog</a></li>
+            <li><a href="courses.html"  class="active">Courses</a></li>
+            <li><a href="form2.html" target="_blank">Login</a></li>
+           
+
+
+            <!-- <div class="background"> <img src="bg.jpg" alt="Image Not Found"></div> -->
+
+        </ul>
+        <img id="menu-btn" src="images/download.png"  alt="not found">
+        <!-- <div class="right-nav">
+            <input type="text" name="search" id="search" placeholder="Search here">
+            <button class=" btn btn-sm">Search</button>
+
+        </div> -->
+
+    </nav>
+    <script>
+        $("#menu-btn").click(function(){
+            $('.navbar ul').addClass('active');
+        });
+        $("#menu-close").click(function(){
+            $('.navbar ul').removeClass('active');
+        });
+    </script>
+    <section id="home">
+        <h2>SKILL UP YOUR SKILLS WITH OUR COURSES</h2>
+    </section>
+    <section id="course-inner">
+        <div class="overview">
+            <img class="course-img" src="react.jpeg" alt="">
+            <div class="course-head">
+                <div class="c-name">
+                    <h2>React</h2>
+                    <div class="star">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+
+
+                    </div>
+                    <p>React is an open-source JavaScript library that is widely used for building user interfaces (UIs)
+                        for web applications. It was developed by Facebook and has gained significant popularity in the
+                        web development community. React follows a component-based approach, where the UI is divided
+                        into reusable and self-contained components, making it easier to manage and maintain complex
+                        applications.</p>
+                </div>
+                <span>240/-</span>
+            </div>
+            <h3>Instructor</h3>
+            <div class="tutor">
+                <img src="b1a.jpeg" alt="">
+                <div class="tutor-det">
+                    <h5>Archana</h5>
+                    <p>Web developer at Google</p>
+                </div>
+            </div>
+            <hr>
+            <h3>Course Overview</h3>
+            <p>Course Outline:
+
+                Module 1: Introduction to React <br>
+
+                Overview of React and its features <br>
+                Setting up the development environment (Node.js, npm) <br>
+                Creating a React project using Create React App <br>
+                Understanding React components and JSX syntax <br>
+                Building a basic React component <br>
+                Working with props and component composition <br> <br>
+                Module 2: State Management and Lifecycle Methods <br>
+
+                Managing component state with useState hook <br>
+                Using lifecycle methods (componentDidMount, componentDidUpdate, etc.) <br>
+                Working with forms and controlled components <br>
+                Handling user input and events <br>
+                Implementing conditional rendering and list rendering <br> <br>
+                Module 3: React Router and Routing <br>
+
+                Introduction to React Router library <br>
+                Setting up routes and navigation in a React application <br>
+                Creating dynamic routes with URL parameters <br>
+                Implementing nested routes and route guarding <br>
+                Working with programmatic navigation and redirects <br> <br>
+                Module 4: Styling in React <br>
+
+                Styling options in React (inline styles, CSS modules, CSS-in-JS) <br>
+                Using popular styling libraries (such as styled-components) <br>
+                Implementing responsive designs and media queries <br>
+                Building reusable UI components and component libraries <br> <br>
+                Module 5: Working with APIs and Data Management <br>
+
+                Fetching data from APIs using fetch or axios <br>
+                Managing asynchronous operations with useEffect hook <br>
+                Global state management using libraries like Redux or React Context <br>
+                Caching data and handling loading and error states <br> <br>
+                Module 6: Integration and Advanced Topics <br>
+
+                Integrating React with external libraries and frameworks (e.g., React-Bootstrap, Material-UI) <br>
+                Testing React components with tools like Jest and React Testing Library <br>
+                Code optimization and performance best practices <br>
+                Deploying React applications to hosting platforms <br> <br>
+                Module 7: Project Development <br>
+
+                Building a complete React application from scratch <br>
+                Applying concepts learned throughout the course <br>
+                Planning, designing, and implementing a React project <br>
+                Testing, debugging, and optimizing code<br> <br>
+
+                Prerequisites: <br>
+
+                Proficiency in HTML, CSS, and JavaScript is required. <br>
+                Basic knowledge of JavaScript frameworks and libraries is recommended.  <br>
+                Familiarity with modern web development concepts (such as DOM manipulation and AJAX) is beneficial <br>
+            </p>
+            <hr>
+            <h3>What will you learn</h3>
+            <div class="learn">
+                <p><i class="far fa-check-circle"></i>React-beginner to advanced</p>
+                <p><i class="far fa-check-circle"></i>Build powerful, fast, user-friendly and reactive web apps</p>
+                <p><i class="far fa-check-circle"></i>Apply for high-paid jobs or work as a freelancer in one the
+                    most-demanded sectors you can find in web dev right now</p>
+                <p><i class="far fa-check-circle"></i>Provide amazing user experiences by leveraging the power of
+                    JavaScript with ease</p>
+                <p><i class="far fa-check-circle"></i>Learn all about React Hooks and React Components</p>
+
+
+            </div>
+
+        </div>
+
+        <div class="enroll">
+            <h3>This Course includes:</h3>
+            <p><i class="fa-solid fa-video"></i>52 hours Videos</p>
+            <p><i class="fa-solid fa-newspaper"></i>75 articles</p>
+            <p><i class="fa-solid fa-cloud-download"></i>Downloadable resources</p>
+            <p><i class="fa-solid fa-infinity"></i>Full Lifetime Access</p>
+            <p><i class="fa-solid fa-mobile-alt"></i>Access on mobile</p>
+            <p><i class="fa-solid fa-paperclip"></i>Assignment</p>
+            <p><i class="fa-solid fa-certificate"></i>Certificate of completiton</p>
+            <div class="enroll-btn">
+                <a href="payment.html" class="blue">Enroll Course</a>
+            </div>
+        </div>
+    </section>
+   
+    <footer class="ok">
+        <div class="footer-col">
+            <h6>Top Product </h6>
+            <li>Manage Reputation</li>
+            <li>PowerTools</li>
+           
+        </div>
+        <div class="footer-col">
+            <h6>Quick Links </h6>
+            <li>Jobs</li>
+            <li>Brand Assets</li>
+           
+        </div>
+        <div class="footer-col">
+            <h6>Features</h6>
+            <li>Manage Repu</li>
+            <li>Power Tools</li>
+            
+        </div>
+        <div class="footer-col">
+            <h6>Resources</h6>
+            <li>Guides</li>
+            <li>Research</li>
+         
+        </div>
+        <div class="footer-col">
+            <h6>Newsletter</h6>
+            <p >You can trust us.we only send promo offers,</p>
+            <br>
+            <div class="subscribe">
+                <input type="email" placeholder="your email address">
+            </div>
+        </div>
+
+
+    </footer>
+    <div class="copyright">
+        <p id="me"> Copyright &copy;2027 All rights Reserved </p>
+        <div class="pro-links">
+            <a href="">
+                <i class="fab fa-facebook"></i>
+            </a>
+            <a href=""><i class="fab fa-instagram"></i></a>
+           <a href="https://www.linkedin.com/in/ayushi-mahajan-356a0025a"> <i class="fab fa-linkedin-in"></i></a>            
+        </div>
+    </div>
+</body>
+
+</html>
