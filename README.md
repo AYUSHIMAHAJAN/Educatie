@@ -5,6 +5,10 @@
 ![blog](https://github.com/AYUSHIMAHAJAN/Educatie/assets/96366141/3318dfa5-909e-496d-910f-d3893f2c159b)
 
 
+![courses](https://github.com/AYUSHIMAHAJAN/Educatie/assets/96366141/1ccaaffb-d636-409a-a56a-45c5fea27563)
+
+
+
 
 
 
