@@ -61,19 +61,4 @@ Footer in Mobile View
 ![image](https://github.com/AYUSHIMAHAJAN/Educatie/assets/96366141/3360c51f-7874-49b9-9ed7-998c4771921d)
 
 
-
-
-
- 
-
-
-
-
-
-
-
-
-
-
-
 # Educatie
