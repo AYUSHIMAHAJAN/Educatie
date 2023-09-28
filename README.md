@@ -26,14 +26,29 @@ Then scroll down to contact Us section
 
  ![image](https://github.com/AYUSHIMAHAJAN/Educatie/assets/96366141/ecbedf5b-789a-42b9-b04f-bf5b0d22a75a)
  
+![image](https://github.com/AYUSHIMAHAJAN/Educatie/assets/96366141/d9589d5b-5450-4431-850c-5bb98c7cb3b1)
+
+We can read variety of blogs from blog section
+
+![image](https://github.com/AYUSHIMAHAJAN/Educatie/assets/96366141/d5b447ce-4164-4362-9dd0-1983605feb98)
+
+Then at courses section user will find all the details related to the course
+
+![image](https://github.com/AYUSHIMAHAJAN/Educatie/assets/96366141/0f0f0bff-65ff-43e7-aa41-b5f2f9383dd6)
+
+By clicking on any course image you will land on the page containing detailed modules to be convered in that particular course
+![image](https://github.com/AYUSHIMAHAJAN/Educatie/assets/96366141/90cdd91e-7940-4326-9d42-0f16c56c8e9d)
+
+
+Login and Logout (Yet to be implemented)
+![image](https://github.com/AYUSHIMAHAJAN/Educatie/assets/96366141/93f519a5-1bf7-4fea-a670-89adf2f21c61)
+
+![image](https://github.com/AYUSHIMAHAJAN/Educatie/assets/96366141/7fdd2447-6099-44e3-9578-dafc8138bd1c)
+
 
  
 
 
-![blog](https://github.com/AYUSHIMAHAJAN/Educatie/assets/96366141/3318dfa5-909e-496d-910f-d3893f2c159b)
-
-
-![courses](https://github.com/AYUSHIMAHAJAN/Educatie/assets/96366141/1ccaaffb-d636-409a-a56a-45c5fea27563)
 
 
 
