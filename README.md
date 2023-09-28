@@ -30,13 +30,15 @@ Then scroll down to contact Us section
 
 We can read variety of blogs from blog section
 
-![image](https://github.com/AYUSHIMAHAJAN/Educatie/assets/96366141/d5b447ce-4164-4362-9dd0-1983605feb98)
+![image](https://github.com/AYUSHIMAHAJAN/Educatie/assets/96366141/f8ab555a-6ce1-4522-a9b4-28f7c1edc7be)
+
 
 Then at courses section user will find all the details related to the course
 
 ![image](https://github.com/AYUSHIMAHAJAN/Educatie/assets/96366141/0f0f0bff-65ff-43e7-aa41-b5f2f9383dd6)
 
 By clicking on any course image you will land on the page containing detailed modules to be convered in that particular course
+
 ![image](https://github.com/AYUSHIMAHAJAN/Educatie/assets/96366141/90cdd91e-7940-4326-9d42-0f16c56c8e9d)
 
 
