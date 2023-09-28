@@ -1,10 +1,10 @@
 
-Idea:A single website to keep you updated by latest technology and also provide knowledge about these technologies at minimum cost;
+<b>Idea <b>:A single website to keep you updated by latest technology and also provide knowledge about these technologies at minimum cost;
 
 Tech Stack Used is: <br>
-<b>HTML </b> <br>
-CSS <br>
-JavaScript <br>
+<b> HTML </b> <br>
+<b> CSS </b> <br>
+<b>JavaScript<b>: <br>
 
 FEATURES IN WEBSITE
 Home Page:Brief Introduction about who we are <br>
@@ -17,6 +17,18 @@ Login and Logout: User can login  to their account and logout from their account
 When user will open the website it will land onto homepage by default <br>
 
 ![educatie](https://github.com/AYUSHIMAHAJAN/Educatie/assets/96366141/37cab150-b9d9-4650-a084-97f95c5f4b0e)
+
+Then scroll down to contact Us section
+
+ ![image](https://github.com/AYUSHIMAHAJAN/Educatie/assets/96366141/8869e5a4-5c4a-42b2-95cf-8a9a9bb6cdd3)
+
+ The form will get submitted whenever you click on submit button and will be send to our email mention below
+
+ ![image](https://github.com/AYUSHIMAHAJAN/Educatie/assets/96366141/ecbedf5b-789a-42b9-b04f-bf5b0d22a75a)
+ 
+
+ 
+
 
 ![blog](https://github.com/AYUSHIMAHAJAN/Educatie/assets/96366141/3318dfa5-909e-496d-910f-d3893f2c159b)
 
