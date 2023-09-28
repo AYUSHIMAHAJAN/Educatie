@@ -48,6 +48,21 @@ Login and Logout (Yet to be implemented)
 
 ![image](https://github.com/AYUSHIMAHAJAN/Educatie/assets/96366141/7fdd2447-6099-44e3-9578-dafc8138bd1c)
 
+The website is mobile responsive also <br>
+Here is some demo
+![image](https://github.com/AYUSHIMAHAJAN/Educatie/assets/96366141/f427b6b1-7bfd-42e5-a030-ab541b2a0790)
+
+Sticky navbar changes to side navbar while going to mobile view
+
+![image](https://github.com/AYUSHIMAHAJAN/Educatie/assets/96366141/f01e40c4-40a1-44a8-810d-1d6fc2dd1c42)
+
+Footer in Mobile View
+
+![image](https://github.com/AYUSHIMAHAJAN/Educatie/assets/96366141/3360c51f-7874-49b9-9ed7-998c4771921d)
+
+
+
+
 
  
 
