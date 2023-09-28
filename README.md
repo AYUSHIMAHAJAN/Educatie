@@ -2,7 +2,7 @@
 Idea:A single website to keep you updated by latest technology and also provide knowledge about these technologies at minimum cost;
 
 Tech Stack Used is: <br>
-HTML <br>
+<b>HTML </b> <br>
 CSS <br>
 JavaScript <br>
 
