@@ -6,7 +6,7 @@ Tech Stack Used is: <br>
 <b> CSS </b> <br>
 <b>JavaScript<b>: <br>
 
-FEATURES IN WEBSITE
+FEATURES IN WEBSITE <br>
 Home Page:Brief Introduction about who we are <br>
 Contact Us: You can send us any query related to technology <br>
 About Page:Describes what we provide through this website <br>
