@@ -30,7 +30,8 @@ Then scroll down to contact Us section
 
 We can read variety of blogs from blog section
 
-![image](https://github.com/AYUSHIMAHAJAN/Educatie/assets/96366141/f8ab555a-6ce1-4522-a9b4-28f7c1edc7be)
+![image](https://github.com/AYUSHIMAHAJAN/Educatie/assets/96366141/25262f60-006a-4d1e-be6c-56746aa29336)
+
 
 
 Then at courses section user will find all the details related to the course
