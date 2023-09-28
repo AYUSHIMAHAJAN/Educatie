@@ -10,10 +10,12 @@ FEATURES IN WEBSITE
 Home Page:Brief Introduction about who we are <br>
 Contact Us: You can send us any query related to technology <br>
 About Page:Describes what we provide through this website <br>
+Blog Page:It contains various blogs about latest technology in trend <br>
 Courses Page:You can access courses at minimal prices starting from just 249 and can have lifetime access of these courses <br>
 Login and Logout: User can login  to their account and logout from their account(Yet to be implemented) <br>
 
-When user will open the website it will land onto homepage by default
+When user will open the website it will land onto homepage by default <br>
+
 ![educatie](https://github.com/AYUSHIMAHAJAN/Educatie/assets/96366141/37cab150-b9d9-4650-a084-97f95c5f4b0e)
 
 ![blog](https://github.com/AYUSHIMAHAJAN/Educatie/assets/96366141/3318dfa5-909e-496d-910f-d3893f2c159b)
